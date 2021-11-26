@@ -9,7 +9,7 @@ public class EnergyBall extends SpecialMove {
 
     protected void applyOppEffects(Pokemon pok) {
         if (Math.random() < 0.1) {
-            pok.setMod(Stat.SPECIAL_ATTACK, -1);
+            pok.setMod(Stat.SPECIAL_DEFENSE, -1);
         }
     }
 
